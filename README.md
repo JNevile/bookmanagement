@@ -93,8 +93,40 @@ Retrieve all books.
       ```
 
 ---
+## 3. GET /books/:id
+Retrieve a specific book by ID.
 
-## 3. POST /books
+- **Description**: This endpoint allows any user to retrieve detailed information about a specific book by providing its unique ID.
+
+- **Request**:
+  - **URL**: `/books/:id`
+  - **Method**: `GET`
+
+- **Response**:
+  - **Success Response**:
+    - **Status Code**: `200 OK`
+    - **Response Body** (example):
+      ```json
+      {
+        "id": 1,
+        "title": "Book 1",
+        "author": "Author 1",
+        "description": "Description of Book 1",
+        "publicationDate": "1851-10-18",
+        "coverImage": "https://covers.example.com/cover1.jpg"
+      }
+      ```
+  - **Error Response** :
+      - **Book Not Found**
+      - **Status Code**: `404 Not Found`
+      - **Response Body**:
+        ```json
+        {
+          "message": "Book not found"
+        }
+        ```
+---
+## 4. POST /books
 Add a new book (admin only).
 
 - **Description**: Only logged-in administrators can add a new book.
@@ -139,7 +171,7 @@ Add a new book (admin only).
 
 ---
 
-## 4. PUT /books/:id
+## 5. PUT /books/:id
 Update a book by its ID (admin only).
 
 - **Description**: Allows an admin to update the details of a specific book by its ID.
@@ -192,7 +224,7 @@ Update a book by its ID (admin only).
 
 ---
 
-## 5. DELETE /books/:id
+## 6. DELETE /books/:id
 Delete a book by its ID (admin only).
 
 - **Description**: Only logged-in administrators can delete a book by its ID.

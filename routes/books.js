@@ -11,6 +11,17 @@ router.get('/', (req, res) => {
   res.json(books);
 })
 
+router.get('/:id', (req, res) => {
+  const { id } = req.params;
+  const booksData = fs.readFileSync(booksFilePath);
+  const books = JSON.parse(booksData);
+
+  const book = books.find(book => book.id === parseInt(id));
+  if (!book) return res.status(404).json({ message: 'Book not found' });
+
+  res.json(book);
+});
+
 router.post('/',  (req, res) => {
   const newBookData = req.body;
   const booksData = fs.readFileSync(booksFilePath);
