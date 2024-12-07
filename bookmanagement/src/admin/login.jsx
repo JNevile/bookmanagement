@@ -6,7 +6,7 @@ function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  const stringValidatio
+  // const stringValidation
 
   const handleSubmit = (e) => {
     e.preventDefault();
