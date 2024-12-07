@@ -1,8 +1,24 @@
 import React from 'react'
+import {useState } from 'react'
 
 function Login() {
+
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
+
+  const stringValidatio
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // handle login logic here
+    
+  };
+    
   return (
-    <div>Admin Login</div>
+    <div>
+        <h1>Admin Login</h1>
+
+    </div>
   )
 }
 
