@@ -24,3 +24,17 @@ button {
 button:hover {
 	opacity: 0.8; /*Slightly reduce opacity on hover for visual effect */
 }
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center; /*Center page elements horizontally*/
+	justify-content: center; /*Center page elements vertically*/
+	min-height: 100vh; /*Display with full viewport height*/
+}
+
+img {
+	max-width: 85%;
+	height: auto;
+	margin: 20px 0;
+}
