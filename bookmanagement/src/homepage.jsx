@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
+import libraryshelves from './resources/libraryshelves.jpg';
 
 const Homepage = () => {
   const [books, setBooks] = useState([]);
@@ -20,11 +21,11 @@ const Homepage = () => {
   };
 
   return (
-    <div>
+      <div className="container">
       <h1>Welcome to the Book Management System</h1>
       <button onClick={fetchBooks}>View all books</button>
       <button onClick={handleLogin}>Login as Admin</button>
-
+      <img src={libraryshelves} alt="Library with books on shelves" />
       {books.length > 0 && (
         <div>
           <h2>Book Listing</h2>
