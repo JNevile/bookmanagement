@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\2\\bookmanagement\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\bookmanagement\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bookmanagement\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\bookmanagement\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bookmanagement\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:server.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\bookmanagement\\src\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bookmanagement\\src\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +59,75 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\bookmanagement\\public\\index.html",
+              "RelativeDocumentMoniker": "bookmanagement\\public\\index.html",
+              "ToolTip": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\bookmanagement\\public\\index.html",
+              "RelativeToolTip": "bookmanagement\\public\\index.html",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-07T20:25:06.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\bookmanagement\\src\\index.js",
+              "RelativeDocumentMoniker": "bookmanagement\\src\\index.js",
+              "ToolTip": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\bookmanagement\\src\\index.js",
+              "RelativeToolTip": "bookmanagement\\src\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-07T20:23:59.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "server.js",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\server.js",
+              "RelativeDocumentMoniker": "server.js",
+              "ToolTip": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\server.js",
+              "RelativeToolTip": "server.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-07T20:19:28.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "homepage.jsx",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\bookmanagement\\src\\homepage.jsx",
+              "RelativeDocumentMoniker": "bookmanagement\\src\\homepage.jsx",
+              "ToolTip": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\bookmanagement\\src\\homepage.jsx",
+              "RelativeToolTip": "bookmanagement\\src\\homepage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-12-07T20:14:28.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\pc\\OneDrive - Bow Valley College\\Desktop\\web project\\12\\bookmanagement\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T20:11:28.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
