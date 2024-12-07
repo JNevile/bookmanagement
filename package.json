@@ -5,8 +5,7 @@
   "main": "App.jsx",
   "scripts": {
     "start": "node server.js",
-    "build": "react-scripts build",
-    
+    "build": "react-scripts build"
   },
   "author": "Aurora",
   "license": "ISC",
