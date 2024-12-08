@@ -29,8 +29,8 @@ const Booklisting = () => {
     const result = books.filter((book) => {
       const titleMatch = book.title.toLowerCase().includes(lowercasedQuery);
       const authorMatch = book.author.toLowerCase().includes(lowercasedQuery);
-      const keywordMatch = book.keywords?.some(keyword => keyword.toLowerCase().includes(lowercasedQuery)); // Assuming 'keywords' is an array in your data
-      const publicationDateMatch = book.publicationDate && book.publicationDate.includes(lowercasedQuery); // Assuming 'publicationDate' is a string (e.g., 'YYYY-MM-DD')
+      const keywordMatch = book.keywords?.some(keyword => keyword.toLowerCase().includes(lowercasedQuery));
+      const publicationDateMatch = book.publicationDate && book.publicationDate.includes(lowercasedQuery); // YYYY-MM-DD
 
       return titleMatch || authorMatch || keywordMatch || publicationDateMatch;
     });
