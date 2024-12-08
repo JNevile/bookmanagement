@@ -2,14 +2,30 @@
 
 import React from 'react'
 import Login from './admin/login'
+import Dashboard from './admin/Dashboard';
+import Homepage from './homepage';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+
+//function App() {
+ // return (
+   // <div>
+     //   {/* Login component */}
+      //{/* <Login />  */}
+    //</div>
+  //)
+//}
 
 function App() {
-  return (
-    <div>
-        {/* Login component */}
-      {/* <Login />  */}
-    </div>
-  )
+    return (
+        <Router>
+            <Switch>
+                <Route path="/login" component={Login} />
+                <Route path="/dashboard" component={Dashboard} />
+                <Route path="/homepage" component={Homepage} />
+            </Switch>
+        </Router>
+    );
 }
 
 export default App
